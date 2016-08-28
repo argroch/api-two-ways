@@ -5,7 +5,7 @@ class HomeController < ApplicationController
 
   def index
     results = HTTParty.get("http://techtalentstore.herokuapp.com/products.json")
-    @product1 = results[""]["namespace"]
+    @product1 = results[0]["name"]
   end
 
   def xml_parse
