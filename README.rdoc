@@ -1,28 +1,7 @@
-== README
+== APIs: Two Ways
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Okay, so I just wanted to try out a couple things:
 
-Things you may want to cover:
+1. I wanted to try out pulling data from the JSON file that <tt>rails g scaffold</tt> creates. So, using good ol' HTTParty to do that. (That's what the <tt>index</tt> action/view is about.)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+2. I'm always pulling JSON with HTTParty. What about XML APIs? And what about Nokogiri? Let's check that out.
